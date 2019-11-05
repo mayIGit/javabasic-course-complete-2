@@ -2,9 +2,8 @@ package com.busyqa.course.super_keyword;
 
 public class Child extends Parent{
 
-	String color = "child color";
-	
-	
+    String color = "child color";
+		
     public Child() {
     	super();
     	System.out.println("Child Contructor"); // Super can be used to refer immediate parent constructor.
@@ -18,7 +17,7 @@ public class Child extends Parent{
 	@Override
 	void doSomething() {
 		System.out.println("Child Doing Something");
-		super.doSomething(); // Super can be used to refer immediate parent methods.
+		super.doSomething(); // Super can be used to refer only the immediate parent methods.
 	}
 	
 	public static void main(String[] args) {

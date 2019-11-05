@@ -3,7 +3,6 @@ package com.busyqa.course.super_keyword;
 public class Parent {
 
 	String color = "parent color";
-
 	
 	public Parent() {
 		super();

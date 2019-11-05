@@ -1,5 +1,6 @@
 package com.busyqa.course.overloading;
 
+
 public class OverloadExample {
 
 	//Overloading works on methods and contructors only.
@@ -18,8 +19,11 @@ public class OverloadExample {
 	OverloadExample(){
 		super();
 	}
-	OverloadExample(String s){
-		this.str = s;
+	OverloadExample(String str){
+		this.str = str;
+	}
+	OverloadExample(int a){
+		this.a = a;
 	}
 	OverloadExample(int a, String s){
 		this.a = a;
@@ -49,10 +53,11 @@ public class OverloadExample {
 	}
 	
 	
-	@SuppressWarnings("unused")
+	@SuppressWarnings("unused") /*Java Annotation*/ 
 	public static void main(String[] args) {
 		
 		OverloadExample obj1 = new OverloadExample();
+		
 		OverloadExample obj2 = new OverloadExample("busyQA");
 		OverloadExample obj3 = new OverloadExample(1,"busyQA");
 		

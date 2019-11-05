@@ -2,7 +2,7 @@ package com.busyqa.course.access_modifiers.default_modifier.packageB;
 
 import com.busyqa.course.access_modifiers.default_modifier.packageA.ClassC;
 
-/* ClassA cannot be imported because it's not visible from it's package
+/*//ClassA cannot be imported because it's not visible from it's package 
 import com.busyqa.course.access_modifiers.default_modifier.packageA.ClassA;
 */
 

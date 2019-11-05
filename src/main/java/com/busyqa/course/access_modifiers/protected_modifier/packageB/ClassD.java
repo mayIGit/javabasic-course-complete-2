@@ -16,7 +16,8 @@ class ClassD extends ClassC{
 		/* ClassC is visible because it's public but not it's members as they are protected*/
 		ClassC obj = new ClassC(); 
 		
-		/* //Members are not visible even though the class is
+		
+		/*//Members are not visible even though the class is
 		obj.a = 5;
 		obj.doSomething();*/
 		

@@ -8,4 +8,6 @@ public class Child extends ParentA implements ParentB{
 		return "SomeText";
 	}
 
+
+
 }

@@ -1,6 +1,6 @@
-package com.busyqa.course.interface_keyword.definition;
+package com.busyqa.course.interface_keyword;
 
-public class Child extends Parent implements InterfaceA, InterfaceB{
+public class Child extends Parent implements InterfaceA, InterfaceB, InterfaceC{
 
 	@Override
 	public void doSomething() { 
