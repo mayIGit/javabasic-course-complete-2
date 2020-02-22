@@ -1,1 +1,1 @@
-javabasic-course-2
+javabasic-course-complete-2
